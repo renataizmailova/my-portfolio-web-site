@@ -1,0 +1,24 @@
+{
+  "name": "renata-designer-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "publick/index.html",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/renataizmailova/my-portfolio-web-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renataizmailova/my-portfolio-web-site/issues"
+  },
+  "homepage": "https://github.com/renataizmailova/my-portfolio-web-site",
+  "dependencies": {
+    "gulp": "^3.8.10",
+    "gulp-ejs": "^1.0.0",
+    "gulp-image-resize": "^0.6.0"
+  }
+}
