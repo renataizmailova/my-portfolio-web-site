@@ -1,0 +1,113 @@
+
+body {
+	background: url(../img/bg.png) #FFB33A;
+	color: #ffffff;
+}
+
+header {
+	
+	background: url(../img/hero-bg.png) #84DBD7;
+	background-size: 100% 100%;
+	background-repeat: none;
+
+}
+
+footer {
+	background: url(../img/moon.png) #50648C;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 800px;
+}
+
+.footer-wrapper {
+	background: url(../img/nightcity-bg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 100%;
+	padding-top: 20px;
+}
+
+nav {
+	height: 70px;
+	padding: 25px;
+}
+
+nav a {
+	margin-right: 10px;
+	color: #ffffff;
+	font-style: italic;
+	font-size: large;
+}
+
+
+.portfolio {
+	min-height: 500px;
+}
+
+.hero {
+	height: 700px; 
+	background: url(../img/city-bg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	text-align: center;
+}
+
+.view-portfolio {
+	margin: 0 auto;
+	  background: #ffb33a;
+  border-color: #e68044;
+
+}
+
+.briefcase {
+	color: #E87F41;
+
+}
+
+.hello {
+	
+	font-size: 3.2em;
+	font-family: 'Lobster', cursive;
+	text-shadow: 6px 3px 5px #5CA1A0, 0 0;
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+.footer-text {
+	font-size: 2.7em;
+	text-shadow: 6px 3px 5px #30456E, 0 0;
+}
+
+.social-list {
+	list-style: none;
+	text-align: left;
+}
+
+.social-list li {
+	font-size: 1.7em;
+	margin-bottom: 10px;
+
+}
+
+.social-list li img {
+	margin-right: 15px;
+}
+
+.social-list li a {
+	color: #ffffff;
+}
+
+.footer-list-wrapper {
+	margin: 0 auto;
+  	width: 550px;
+}
+
+.copyright {
+	background-color: #FFB33A;
+	color: #50648C;
+	height: 50px;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 10px;
+}
