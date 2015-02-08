@@ -1,0 +1,31 @@
+<div class="portfolio">
+	<% for (var i = 0; i < images.length; i++) { %>
+		<div class="row">
+			<% for (var j = 0; j < images[i].length; j++) { %>
+				<div class="col-md-2">
+					<%=images[i][j].thumbnail %>
+					<%=images[i][j].image %>
+				</div>
+			<% } %>
+		</div>
+	<% } %>
+</div>
+
+<!-- <div class="col-md-2">
+	<img src="img/galery/portfolio1-43.jpg" alt="" class="portfolio-item">
+</div>
+<div class="col-md-2">
+	<img src="img/galery/portfolio1-57.jpg" alt="" class="portfolio-item">
+</div>
+<div class="col-md-2">
+	<img src="img/galery/table-tent1.jpg" alt="" class="portfolio-item">
+</div>
+<div class="col-md-2">
+	<img src="img/galery/table-tent2.jpg" alt="" class="portfolio-item">
+</div>
+<div class="col-md-2">
+	<img src="img/galery/table-tent3.jpg" alt="" class="portfolio-item">
+</div>
+<div class="col-md-2">
+	<img src="img/galery/table-tent4.jpg" alt="" class="portfolio-item">
+</div> -->
