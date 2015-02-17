@@ -30,8 +30,8 @@ gulp.task('template', function() {
 	for (var i = imageFiles.length - 1; i >= 0; i--) {
 		if (imageFiles[i].indexOf('.jpg') !== -1) {
 			images.push({
-				image: 'public/img/gallery/' + imageFiles[i],
-				thumbnail: 'public/img/gallery/thumbnail/' + imageFiles[i]
+				image: 'img/gallery/' + imageFiles[i],
+				thumbnail: 'img/gallery/thumbnail/' + imageFiles[i]
 			});
 		}
 	}
